@@ -42,3 +42,22 @@ img {
     min-height: 850px;
     border: 1px solid black;
 }
+
+@media screen and (max-width: 991px) {
+    .left-col {
+        width: 15%;
+    }
+
+    .right-col {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .left-col {
+        display: none;
+    }
+    .right-col {
+        width: 100%;
+    }
+}
