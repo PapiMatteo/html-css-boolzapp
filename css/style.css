@@ -22,7 +22,11 @@ img {
     margin: 0 auto;
     /* Debug */
     border: 1px solid black;
-    min-height: 850px;
+    height: 850px;
+}
+
+.flex {
+    display: flex;
 }
 
 /* EXTERNAL STRUCTURE */
@@ -33,14 +37,14 @@ img {
 .left-col {
     width: 35%;
     /* Debug */
-    min-height: 850px;
+    height: 850px;
     border: 1px solid black;
 }
 
 .right-col {
     width: 65%;
     /* Debug */
-    min-height: 850px;
+    height: 850px;
     border: 1px solid black;
 }
 
@@ -73,7 +77,53 @@ img {
 }
 
 /* Left and Right Header */
-header {
+.left-header, .right-header {
     height: 80px;
     background-color: #eaeaea;
 }
+
+
+/* Left and Right Main */
+
+.right-main {
+    background-image: url(../img/mine.jpg);
+    /* Debug */
+    height: calc(850px - (2 * 80px));
+}
+
+.left-main {
+    flex-direction: column;
+}
+
+.nav-container {
+    /* Debug */
+    height: 150px;
+    border: 1px solid black;
+}
+
+.notification {
+    /* Debug */
+    height: 100px;
+    border: 1px solid black;
+}
+
+.search {
+    /* Debug */
+    height: 50px;
+    border: 1px solid black;
+}
+
+.chat-container {
+    overflow-y: scroll;
+    /* Debug */
+    height: 620px;
+    border: 1px solid black;
+}
+
+.chat li {
+    list-style-type: none;
+    /* Debug */
+    border: 1px solid black;
+    height: calc(620px / 6);
+}
+
