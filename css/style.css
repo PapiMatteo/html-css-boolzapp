@@ -158,12 +158,6 @@ li img {
     .right-col {
         height: 100vh;
     }
-}
-
-@media screen and (max-width: 540px) {
-    /* .right-col {
-        height: 100vh;
-    } */
 
     .right-main {
         height: calc(100vh - (2 * 80px));
@@ -174,4 +168,5 @@ li img {
 
 footer {
     background-color: #f3eeea;
+    height: 80px;
 }
