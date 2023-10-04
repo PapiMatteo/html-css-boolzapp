@@ -204,6 +204,10 @@ li img {
     .right-main {
         height: calc(100vh - (2 * 80px));
     }
+
+    #chat-id p, #chat-id h3 {
+        display: none;
+    }
 }
 
 /* Footer */
