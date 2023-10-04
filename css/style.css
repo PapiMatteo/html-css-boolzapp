@@ -68,6 +68,10 @@ img {
 }
 
 @media screen and (max-width: 540px) {
+    .container {
+        height: 100vh;
+    }
+
     .left-col {
         display: none;
     }
@@ -127,3 +131,22 @@ img {
     height: calc(620px / 6);
 }
 
+@media screen and (max-width: 992px) {
+    .nav-container {
+        display: none;
+    } 
+    
+    .chat-container {
+        height: calc(850px - 80px);
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .right-col {
+        height: 100vh;
+    }
+
+    .right-main {
+        height: calc(100vh - (2 * 80px));
+    }
+}
