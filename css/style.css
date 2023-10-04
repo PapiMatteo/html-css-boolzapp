@@ -14,6 +14,7 @@ img {
     width: 100%;
     height: 100vh;
     padding: 1rem 0;
+    background: linear-gradient( to bottom, #009688 0%, #009688 13%, #dbdbd3 13%, #dbdbd3 80%); 
 }
 
 .container {
@@ -44,6 +45,15 @@ img {
 }
 
 @media screen and (max-width: 991px) {
+    .container {
+        width: 100%;
+    }
+
+    .wrapper {
+        background: none;
+        padding: 0 0;
+    }
+
     .left-col {
         width: 15%;
     }
@@ -60,4 +70,10 @@ img {
     .right-col {
         width: 100%;
     }
+}
+
+/* Left and Right Header */
+header {
+    height: 80px;
+    background-color: #eaeaea;
 }
