@@ -8,3 +8,37 @@
 img {
     width: 100%;
 }
+
+/* COMMON */
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    padding: 1rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* Debug */
+    border: 1px solid black;
+    min-height: 850px;
+}
+
+/* EXTERNAL STRUCTURE */
+.external-row {
+    display: flex;
+}
+
+.left-col {
+    width: 35%;
+    /* Debug */
+    min-height: 850px;
+    border: 1px solid black;
+}
+
+.right-col {
+    width: 65%;
+    /* Debug */
+    min-height: 850px;
+    border: 1px solid black;
+}
