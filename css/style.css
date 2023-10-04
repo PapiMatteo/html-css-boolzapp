@@ -29,6 +29,14 @@ img {
     display: flex;
 }
 
+li img {
+    margin-left: 1rem; 
+    border-radius: 50%;
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
+}
+
 /* EXTERNAL STRUCTURE */
 .external-row {
     display: flex;
@@ -85,6 +93,18 @@ img {
     background-color: #eaeaea;
 }
 
+.header-row {
+    height: 80px;
+    align-items: center;
+}
+
+.profile-pic img{
+    margin-left: 1rem;   
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 
 /* Left and Right Main */
 
@@ -137,13 +157,6 @@ img {
 
 .chat-item {
     align-items: center;
-}
-
-li img {
-    border-radius: 50%;
-    object-fit: cover;
-    width: 80px;
-    height: 80px;
 }
 
 @media screen and (max-width: 992px) {
