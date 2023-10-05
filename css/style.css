@@ -27,8 +27,6 @@ body {
     width: 80%;
     margin: 0 auto;
     height: 95%;
-    /* Debug */
-    border: 1px solid black; 
 }
 
 .flex {
@@ -71,8 +69,6 @@ li img {
 .right-col {
     width: calc(100% - 500px);
     height: 100%;
-    /* Debug */
-    border: 1px solid black;
 }
 
 @media screen and (max-width: 991px) {
