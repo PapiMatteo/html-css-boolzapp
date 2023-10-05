@@ -65,8 +65,7 @@ li img {
     width: 500px;
     height: 100%;
     flex-direction: column;
-    /* Debug */
-    border: 1px solid black;
+    border-right: 1px solid #b1b1b1;
 }
 
 .right-col {
@@ -180,8 +179,6 @@ li img {
     height: 80px;
     align-items: center;
     gap: 1rem;
-    /* Debug */
-    border: 1px solid black;
     background-color: #8edafc;
 }
 
@@ -211,8 +208,6 @@ li img {
     height: 50px;
     padding-top: 5px;
     padding-left: 30px;
-    /* Debug */
-    border: 1px solid black;
     background-color: #eaeaea;
 }
 
@@ -246,8 +241,6 @@ li img {
 .chat-container {
     overflow-y: scroll;
     flex-grow: 2;
-    /* Debug */
-    border: 1px solid black;
     background-color: white;
 }
 
@@ -299,7 +292,35 @@ li img {
 
 /* Footer */
 
-footer {
+.footer {
     background-color: #f3eeea;
     height: 80px;
+    align-items: center;
+    justify-content: space-around;
+}    
+
+.footer-btn {
+    background: none;
+    width: 10%;
+}
+
+.write-text {
+    width: 75%;
+}
+
+#message-text {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 540px) {
+    .footer-btn {
+        display: none;
+    }
+
+    .write-text {
+        width: 95%;
+    }
 }
