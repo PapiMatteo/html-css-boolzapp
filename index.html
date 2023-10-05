@@ -15,7 +15,7 @@
         <div class="container">
             <!-- EXTERNAL STRUCTURE -->
             <div class="external-row">
-                <div class="left-col">
+                <div class="left-col flex">
                     <!-- Header -->
                     <header class="left-header">
                         <div class="header-row flex">
@@ -43,19 +43,27 @@
                     <!-- /Header -->
 
                     <!-- Main -->
-                    <main class="left-main flex">
                         
                         <!-- Navigation -->
                         <div class="nav-container">
                             <!-- Notification -->
                             <div class="notification flex">
-
+                                <div class="notification-icon">
+                                    <span class="bell-icon"><i class="fa-solid fa-bell-slash fa-2x"></i></span>
+                                </div>
+                                <div class="notification-text">
+                                    <h3>Ricevi notiviche di nuovi messaggi</h3>
+                                    <p class="notification-link"><a href="">Attiva le notifiche desktop</a></p>
+                                </div>
                             </div>
                             <!-- /Notification -->
 
                             <!-- Search -->
-                            <div class="search">
-
+                            <div class="search-section">
+                                <div class="search-spot">
+                                    <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
+                                    <input type="search" name="contact-search" id="search" placeholder="Cerca o inizia una nuova chat">
+                                </div>
                             </div>
                             <!-- /Search -->
                         </div>
@@ -187,7 +195,7 @@
                             </ul>
                         </div>
                         <!-- /Chat List -->
-                    </main>
+
                     <!-- /Main -->
 
                 </div>
